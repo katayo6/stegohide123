@@ -173,10 +173,10 @@ class Application(Frame):
         en_de_cry_frame = Frame(right_frame)
         en_de_cry_frame.pack(side=TOP)
 
-        decry_button = Button(en_de_cry_frame, text='Дешифрование', command=self.decry)
+        decry_button = Button(en_de_cry_frame, text='Дешифровать', command=self.decry)
         decry_button.pack(side=LEFT)
 
-        encry_button = Button(en_de_cry_frame, text='Расшифрование', command=self.encry)
+        encry_button = Button(en_de_cry_frame, text='Зашифровать', command=self.encry)
         encry_button.pack(side=RIGHT)
 
         msg_frame = Frame(right_frame)
